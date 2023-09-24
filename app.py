@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import redirect, render_template
+from flask import render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import text 
 from os import getenv
